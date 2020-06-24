@@ -3,7 +3,7 @@ If you're reading this, then hello, this is my first C++ program I've written. F
 
 This is a random number generator, pretty simple, I know. I made it cause I just got into C++ and thought I'd give it a shot.
 
-How to use it:
+<h2> How to use it: </h3>
 1. First off, you have to compile the .cpp file. The way I do it is with MinGW (link below)
 2. Next, you have to add the PATH to MinGW in System Properties (link to show you how to do it is below)
 3. Go to the command prompt and change directory to where the .cpp file is (example, if it's on the Desktop then it would be "cd Desktop")
@@ -11,7 +11,7 @@ How to use it:
 5. If everything went well, you should see the prompt
 
 
-Links: 
+<h3> Links: </h3>
 MinGW - https://osdn.net/projects/mingw/releases/<br/>
 Adding a PATH variable - https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/<br/>
 Compile with Visual Studio Code - https://code.visualstudio.com/docs/languages/cpp
