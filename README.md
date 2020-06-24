@@ -12,8 +12,8 @@ How to use it:
 
 
 Links: 
-MinGW - https://osdn.net/projects/mingw/releases/
-Adding a PATH variable - https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/
+MinGW - https://osdn.net/projects/mingw/releases/<br/>
+Adding a PATH variable - https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/<br/>
 Compile with Visual Studio Code - https://code.visualstudio.com/docs/languages/cpp
 
 * "gcc" will differ on what compiler you use, I use Visual Studio Code to negate this however so you may have an easier time with Visual Studio Code
