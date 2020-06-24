@@ -1,4 +1,4 @@
-# My First Number Generator (In C++)
+# My First Number Generator
 If you're reading this, then hello, this is my first C++ program I've written. Feel free to point out any mistakes I've made and maybe add some suggestions (hopefully how to lessen the libraries used)
 
 This is a random number generator, pretty simple, I know. I made it cause I just got into C++ and thought I'd give it a shot.
