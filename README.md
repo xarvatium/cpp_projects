@@ -4,11 +4,11 @@ Hello, this is where I will upload the C++ projects that I have done. Hope you e
 
 
 <h2> How to use them: </h2>
-1. First off, you have to compile the .cpp file. The way I do it is with MinGW (link below)
-2. Next, you have to add the PATH to MinGW in System Properties (link to show you how to do it is below)
-3. Go to the command prompt and change directory to where the .cpp file is (example, if it's on the Desktop then it would be "cd Desktop")
-4. In order to compile it, you'd type in "gcc ran_num_gen.cpp"* where you'll get a .exe file
-5. If everything went well, you should see the prompt
+1. First off, you have to compile the .cpp file. The way I do it is with MinGW (link below)<br/>
+2. Next, you have to add the PATH to MinGW in System Properties (link to show you how to do it is below)<br/>
+3. Go to the command prompt and change directory to where the .cpp file is (example, if it's on the Desktop then it would be "cd Desktop")<br/>
+4. In order to compile it, you'd type in "gcc ran_num_gen.cpp"* where you'll get a .exe file<br/>
+5. If everything went well, you should see the prompt<br/>
 
 
 <h3> Links: </h3>
