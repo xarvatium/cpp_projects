@@ -18,17 +18,17 @@ int main () {
     std::cout << "Answer: (Y or N) ";
     std::cin >> answer;
     
-    
-    if (answer == "Y") {
-        std::cout << rand()%100;
-        
+    for (std::string::iterator i = answer.begin(); i < answer.end(); i++){
+        *i = tolower(*i);
     }
-    else if (answer == "N") {
+    
+    if (answer == "y") {
+        std::cout << rand() % 100;
+    }
+    else if (answer == "n") {
         std::cout << "Alright.";
         return 0;
     }
-    for (std::string::iterator i = answer.begin(); i < answer.end(); i++) {
-        *i = tolower(*i);
-    }
+
     
 }
