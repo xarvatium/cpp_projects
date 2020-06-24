@@ -11,7 +11,7 @@ Hello, this is where I will upload the C++ projects that I have done. Hope you e
 5. If everything went well, you should see the prompt<br/>
 
 
-<h3> Links: </h3>
+<div style="font-size: 24> Links: <div style="font-size: 24/>
 MinGW - https://osdn.net/projects/mingw/releases/<br/>
 Adding a PATH variable - https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/<br/>
 Compile with Visual Studio Code - https://code.visualstudio.com/docs/languages/cpp
