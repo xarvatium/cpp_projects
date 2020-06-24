@@ -1,9 +1,9 @@
-# My First Number Generator
-If you're reading this, then hello, this is my first C++ program I've written. Feel free to point out any mistakes I've made and maybe add some suggestions (hopefully how to lessen the libraries used)
+# My C++ Projects
 
-This is a random number generator, pretty simple, I know. I made it cause I just got into C++ and thought I'd give it a shot.
+Hello, this is where I will upload the C++ projects that I have done. Hope you enjoy and feel free to leave feedback and suggestions (hopefully ones that reduce the libraries I use)
 
-<h2> How to use it: </h2>
+
+<h2> How to use them: </h2>
 1. First off, you have to compile the .cpp file. The way I do it is with MinGW (link below)
 2. Next, you have to add the PATH to MinGW in System Properties (link to show you how to do it is below)
 3. Go to the command prompt and change directory to where the .cpp file is (example, if it's on the Desktop then it would be "cd Desktop")
