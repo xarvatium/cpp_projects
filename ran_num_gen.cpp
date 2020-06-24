@@ -13,7 +13,8 @@ int main () {
 
     std::string answer;
     srand(time(NULL));
-
+do {
+    std::cout << "\n";
     std::cout << "Do you want to have a number generated?\n";
     std::cout << "Answer: (Y or N) ";
     std::cin >> answer;
@@ -25,10 +26,8 @@ int main () {
     if (answer == "y") {
         std::cout << rand() % 100;
     }
-    else if (answer == "n") {
-        std::cout << "Alright.";
-        return 0;
-    }
 
+}
+while(answer != "n");
     
 }
