@@ -12,7 +12,7 @@ Hello, this is where I will upload the C++ projects that I have done. Hope you e
 
 
 <h5> Links: </h5>
-[MinGW](https://osdn.net/projects/mingw/releases/) <br/>
+(MinGW)[https://osdn.net/projects/mingw/releases/] <br/>
 [Adding a PATH variable](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/) <br/>
 [Compile with Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
 
