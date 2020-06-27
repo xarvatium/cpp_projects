@@ -15,6 +15,5 @@ Hello, this is where I will upload the C++ projects that I have done. Hope you e
 Visual Studio Code download - https://code.visualstudio.com/Download <br/>
 MinGW - https://www.osdn.net/projects/mingw/releases/ <br/>
 Adding a PATH variable - https://www.helpdeskgeek.com/windows-10/add-windows-path-environment-variable/ <br/>
-Compile with Visual Studio Code - https://code.visualstudio.com/docs/languages/cpp
-
-* "gcc" will differ on what compiler you use, I use Visual Studio Code to negate this however so you may have an easier time with Visual Studio Code
+Compile with Visual Studio Code - https://code.visualstudio.com/docs/languages/cpp <br/>
+The tutorial I referred to - https://www.freecodecamp.org/news/how-to-compile-your-c-code-in-visual-studio-code/ <br/>
