@@ -12,7 +12,7 @@ Hello, this is where I will upload the C++ projects that I have done. Hope you e
 6. To stop running the code (if in cmd) press Ctrl + C <br/>
 
 <h5> Links: </h5>
-Visual Studio Code download - https://code.visualstudio.com/Download <br/>
+[Visual Studio Code download](https://code.visualstudio.com/Download "VS Code Download") <br/>
 MinGW - https://www.osdn.net/projects/mingw/releases/ <br/>
 Adding a PATH variable - https://www.helpdeskgeek.com/windows-10/add-windows-path-environment-variable/ <br/>
 Compile with Visual Studio Code - https://code.visualstudio.com/docs/languages/cpp <br/>
