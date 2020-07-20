@@ -50,12 +50,12 @@ int main() {
             std::cout << "Enter the second number: \n";
             std::cout << "Second number: ";
             std::cin >> Num2;
-            if (Num2 == 0) {
-                std::cout << "Error: Cannot divide by 0, enter a new divisor: ";
-                std::cin >> Num2;
+                if (Num2 == 0) {
+                    std::cout << "Error: Cannot divide by 0, enter a new divisor: ";
+                    std::cin >> Num2;
             }
-            else Num3 = Num1 / Num2;
-            std::cout << Num1 << " / " << Num2 << " = " << Num3 << "\n";
+                else Num3 = Num1 / Num2;
+                std::cout << Num1 << " / " << Num2 << " = " << Num3 << "\n";
             T;
             break;
 
