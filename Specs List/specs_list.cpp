@@ -12,7 +12,7 @@ int main () {
     nExIds = CPUInfo[0];
     for(i=0x8000000; i<nExIds; ++i) {
         __cpuid(CPUInfo, i);
-// Interpret CPU brand
+// The line of code that interprets the CPU brand
         if(i == 0x80000002)
             memcpy(CPUBrandString, CPUInfo, sizeof(CPUInfo));
         else if (i == 0x80000003)
