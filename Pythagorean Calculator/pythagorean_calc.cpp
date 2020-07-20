@@ -17,6 +17,7 @@ int main() {
         std::cout << "3 - Side C and Side A\n";
         std::cout << "4 - Help\n";
         std::cout << "5 - Exit\n";
+        std::cout << "Selection: ";
         std::cin >> choice;
 
             // The calculator portion of the code
