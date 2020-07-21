@@ -6,7 +6,7 @@ int main() {
     int choice;
     float answer;
     int SideA2, SideB2, SideC2;
-    int SideA, SideB, SideC;
+    float SideA, SideB, SideC;
 
     // Selection screen code
     bool calcOn = true;
@@ -23,15 +23,22 @@ int main() {
             // The calculator portion of the code
             switch(choice) {
                 case 1:
+                    bool valid_input = false;
+                    while (!valid_input) {
                     std::cout << "Please input your values:\n";
                     std::cout << "Side A: ";
                     std::cin >> SideA;
                     std::cout << "Side B: ";
                     std::cin >> SideB;
-                    answer = pow(SideA, 2) + pow(SideB, 2);
-                    std::cout << "Side C is: " << pow(answer, 2) << "\n";
-                        if(SideA > 180 && SideB > 180) {
-                        std::cout << "Error: value above 180";
+                        if(SideA < 180 || SideB < 180) {
+                            valid_input = true;
+                            answer = pow(SideA, 2) + pow(SideB, 2);
+                            std::cout << "Side C is: " << pow(answer, 2) << "\n";
+                            valid_input = true;
+                        }
+                        else {
+                            std::cout << "Error: A side you entered is greator than 180 degrees\n";
+                        }
                     }
                     break;
             }
