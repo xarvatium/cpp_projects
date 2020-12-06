@@ -6,12 +6,21 @@ int main() {
     double Num1, Num2, Num3;
     char Operator;
     const bool T(true), F(false);
-    int shape;
+    char shape;
 
     do {
         std::cout << "Please select what you need to find the area of:\n";
-        std::cout << "3D Shape: ";
+        std::cout << "(For right now, only input: square, circle, rectangle, and trapezoid)\n";
+        std::cout << "Or type X to exit and Z to restart\n";
+        std::cout << "Shape: ";
         std::cin >> shape;
         
-    } while(Operator == 'Z');
+    } while(shape == 'Z');
+
+    while(!F) {
+        switch(shape) { 
+            case 'square' :
+
+        }
+    }
 }
