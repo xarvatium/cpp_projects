@@ -2,12 +2,16 @@
 #include <stdlib.h>
 #include <string>
 #include <iomanip>
+#include <fstream>
+#include <sstream>
+#include <locale>
 
 int main() {
     FILE *fp, *ft;
     char userIn, createResp;
     const bool T(true), F(false);
-    int initAmt, actNumIn, actDep, actWith;
+    int initAmt, actNumIn, actDep, actWith, actBal, actNum, actNumInit;
+    std::string date,out,actFirstName,actLastName;
 
     struct account {
         char actFirstName[50], actLastName[50];
@@ -15,21 +19,19 @@ int main() {
         int actBal;
     };
 
-    struct account e;
+    std::ifstream indata;
+    std::ofstream outdata;
+
     char xactFirstName[50], xactLastName[50];
     long int recsize;
 
-    fp=fopen("users.txt","rb+");
+    // Generating .csv file
 
-    if (fp == NULL) {
-        fp = fopen("users.txt","wb+");
+    out=".csv";
+    out="accounts"+out;
+    outdata.open(out.c_str());
 
-        if (fp==NULL) {
-            puts("Cannot open file");
-            return 0;
-        }
-        }
-
+    // Gives a menu that loops until the user presses "8"
     while(!F) {
         std::cout << "Main Menu\n";
         std::cout << "1. Create a New Account\n";
@@ -42,20 +44,24 @@ int main() {
         std::cout << "8. Exit\n";
         std::cout << "Please Input an Option (1-8): ";
         std::cin >> userIn;
+        // The data validation portion that checks for the user response
         switch(userIn) {
             case '1' :
-                fseek(fp,0,SEEK_END);
+                actNumInit = 1;
                 std::cout << "---New Account Entry Form---\n";
-                std::cout << "Enter the account number: ";
-                std::cin >> e.actNum;
                 std::cout << "Enter the account holder's first name: ";
-                std::cin >> e.actFirstName;
+                std::cin >> actFirstName;
                 std::cout << "Enter the account holder's last name: ";
-                std::cin >> e.actLastName;
+                std::cin >> actLastName;
                 std::cout << "Enter Initial Amount: ";
                 std::cin >> initAmt;
-                e.actBal = initAmt;
-                fwrite(&e,recsize,1,fp);
+                actBal = initAmt;
+                std::cout << "Your account number is: " << actNumInit << "\n";
+                outdata << "Account Information\n" << std::endl;
+                outdata << "Account Holder Name" << "," << actFirstName << " " << actLastName << std::endl;
+                outdata << "Account Number" << "," << actNumInit << std::endl;
+                actNumInit++;
+                outdata << "Account Balance" << "," <<initAmt << std::endl;
                 std::cout << "Account Created Successfully\n";
                 T;
                 break;
@@ -91,8 +97,9 @@ int main() {
                 T;
                 break;
             case '8' :
-                T;
-                break;
+                exit(0);
+                return(0);
+                F;
         }
     }
 }
