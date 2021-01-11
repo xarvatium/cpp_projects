@@ -12,21 +12,12 @@ int main() {
     const bool T(true), F(false);
     int initAmt, actNumIn, actDep, actWith, actBal, actNum, actNumInit;
     std::string date,out,actFirstName,actLastName;
-
-    struct account {
-        char actFirstName[50], actLastName[50];
-        int actNum;
-        int actBal;
-    };
-
-    std::ifstream indata;
+    
     std::ofstream outdata;
-
-    char xactFirstName[50], xactLastName[50];
-    long int recsize;
-
+    std::ifstream indata;
+    std::string out;
+    std::ifstream indata;
     // Generating .csv file
-
     out=".csv";
     out="accounts"+out;
     outdata.open(out.c_str());
@@ -102,4 +93,8 @@ int main() {
                 F;
         }
     }
+}
+
+int switchFuncs() {
+
 }
