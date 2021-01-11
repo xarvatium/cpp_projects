@@ -15,8 +15,6 @@ int main() {
     
     std::ofstream outdata;
     std::ifstream indata;
-    std::string out;
-    std::ifstream indata;
     // Generating .csv file
     out=".csv";
     out="accounts"+out;
@@ -93,8 +91,4 @@ int main() {
                 F;
         }
     }
-}
-
-int switchFuncs() {
-
 }
